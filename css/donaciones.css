@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+
+:root {
+    --color-verdeo:#002122;
+    --color-blanco:#F5F5DC;
+    --color-verdec:#004700;
+    --color-verdep:#8A9A5C;
+    --color-cafe:#654321;
+    --color-verdeb:#228B22;
+    --color-azul:#B1CCEF;
+    --color-azulv:#2F4F4F;
+    --color-gris:#F8F7F3;
+}
+.logo {
+    width: 10rem;
+    height: 5rem; 
+    background: url(../img/logo-ecovida\ pequeño.png) no-repeat center;
+}
+.color-verdeo {
+    background: var(--color-verdeo);
+}
+.color-blanco {
+    background: var(--color-blanco);
+}
+.color-verdec {
+    background: var(--color-verdec);
+}
+.color-verdep {
+    background: var(--color-verdep);
+}
+.color-cafe {
+    background: var(--color-cafe);
+}
+.color-verdeb {
+    background: var(--color-verdeb);
+}
+.color-azul {
+    background: var(--color-azul);
+}
+.color-azulv {
+    background: var(--color-azulv);
+}
+.color-gris {
+    background: var(--color-gris);
+}
+.navbar-nav .nav-link:hover {
+    color: var(--color-verdep); 
+    text-decoration: underline;
+}
+.navbar a, span {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    color: var(--color-blanco);
+    font-size: larger;
+}
+.mata {
+    width: 100%;
+    height: auto;
+}
+h1 {
+    font-family: "Lilita One", sans-serif;
+    color: var(--color-cafe);
+}
+p {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    color: var(--color-cafe);
+}
+.pasto {
+    width: 100%;
+    height: auto;
+}
+.needs-validation {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    color: var(--color-gris);
+}
+.logo-footer {
+    width: 10.625rem;/*170px*/
+    height: 2.5rem; /*40px*/
+    background: url(../img/logo-ecovida\ pequeño.png) no-repeat center;
+}
